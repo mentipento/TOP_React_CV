@@ -1,0 +1,16 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex .column {
+  flex-basis: 50%;
+}
